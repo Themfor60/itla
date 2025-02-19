@@ -14,10 +14,10 @@ class Programa
             numeros[i] = Convert.ToInt32(Console.ReadLine());
         }
 
-        // Ordenar el arreglo
+      
         Array.Sort(numeros);
 
-        // Mostrar los números ordenados
+   
         Console.WriteLine("\nNúmeros ordenados:");
         foreach (int numero in numeros)
         {
